@@ -1,0 +1,270 @@
+# Translation of Plugins - WP-PostViews - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WP-PostViews - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-02-22 21:24:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP-PostViews - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://lesterchan.net"
+msgstr "https://lesterchan.net"
+
+#. Author of the plugin/theme
+msgid "Lester 'GaMerZ' Chan"
+msgstr "Lester 'GaMerZ' Chan"
+
+#. Description of the plugin/theme
+msgid "Enables you to display how many times a post/page had been viewed."
+msgstr "投稿・固定ページの閲覧数を表示します。"
+
+#. Plugin URI of the plugin/theme
+msgid "https://lesterchan.net/portfolio/programming/php/"
+msgstr "https://lesterchan.net/portfolio/programming/php/"
+
+#: wp-postviews.php:953
+msgid "* If you are not using any category statistics, you can ignore it."
+msgstr "* 使用していないカテゴリがある場合は無視されます。"
+
+#: wp-postviews.php:950
+msgid "Separate mutiple categories with commas."
+msgstr "複数のカテゴリーをコンマで区切ります。"
+
+#: wp-postviews.php:949
+msgid "Category IDs:"
+msgstr "カテゴリーID:"
+
+#: wp-postviews.php:946
+msgid "<strong>0</strong> to disable."
+msgstr "<strong>0</strong>で無効にします。"
+
+#: wp-postviews.php:945
+msgid "Maximum Post Title Length (Characters):"
+msgstr "投稿タイトルの最大文字数:"
+
+#: wp-postviews.php:942
+msgid "No. Of Records To Show:"
+msgstr "表示する件数:"
+
+#: wp-postviews.php:935
+msgid "%s Only"
+msgstr "%s のみ"
+
+#: wp-postviews.php:932
+msgid "All"
+msgstr "すべて"
+
+#: wp-postviews.php:930
+msgid "Include Views From:"
+msgstr "ビュー元に含める:"
+
+#: wp-postviews.php:925
+msgid "Most Viewed By Category"
+msgstr "カテゴリ内で観覧回数の多い記事"
+
+#: wp-postviews.php:924
+msgid "Most Viewed"
+msgstr "観覧回数の多い記事"
+
+#: wp-postviews.php:922
+msgid "Least Viewed By Category"
+msgstr "カテゴリ内で観覧回数の少ない記事"
+
+#: wp-postviews.php:921
+msgid "Least Viewed"
+msgstr "観覧回数の少ない記事"
+
+#: wp-postviews.php:919
+msgid "Statistics Type:"
+msgstr "統計タイプ:"
+
+#: wp-postviews.php:916
+msgid "Title:"
+msgstr "タイトル: "
+
+#: wp-postviews.php:855
+msgid "WP-PostViews views statistics"
+msgstr "WP-PostViews で記事観覧回数の統計を取得して、人気記事や最新記事を表示します。"
+
+#: wp-postviews.php:806 wp-postviews.php:856 wp-postviews.php:904
+msgid "Views"
+msgstr "表示数"
+
+#: wp-postviews.php:747
+msgid "<strong>%s</strong> view was generated."
+msgid_plural "<strong>%s</strong> views were generated."
+msgstr[0] "<strong>％s</strong>ビュー生成しました。"
+
+#: wp-postviews.php:733 wp-postviews.php:735 wp-postviews.php:765
+msgid "%s Most Viewed Page"
+msgid_plural "%s Most Viewed Pages"
+msgstr[0] "%s 最も人気のページ"
+
+#: wp-postviews.php:728 wp-postviews.php:730 wp-postviews.php:759
+msgid "%s Most Viewed Post"
+msgid_plural "%s Most Viewed Posts"
+msgstr[0] "%s 最も人気の記事"
+
+#. #-#-#-#-#  tmp-wp-postviews.pot (WP-PostViews 1.75)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: wp-postviews.php:715 wp-postviews.php:717 wp-postviews.php:745
+msgid "WP-PostViews"
+msgstr "WP-PostViews"
+
+#: wp-postviews.php:282 wp-postviews.php:343 wp-postviews.php:405
+#: wp-postviews.php:467 wp-postviews.php:528 wp-postviews.php:590
+msgid "N/A"
+msgstr "該当なし"
+
+#: wp-postviews.php:43
+msgid "PostViews"
+msgstr "PostViews"
+
+#: postviews-options.php:204
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: postviews-options.php:198
+msgid "Don't display on other pages"
+msgstr "その他のページでは表示しない"
+
+#: postviews-options.php:193
+msgid "Other Pages:"
+msgstr "その他のページ:"
+
+#: postviews-options.php:188
+msgid "Don't display on search pages"
+msgstr "検索ページでは表示しない"
+
+#: postviews-options.php:183
+msgid "Search Pages:"
+msgstr "検索ページ:"
+
+#: postviews-options.php:178
+msgid "Don't display on archive pages"
+msgstr "アーカイブページでは表示しない"
+
+#: postviews-options.php:173
+msgid "Archive Pages:"
+msgstr "アーカイブページ:"
+
+#: postviews-options.php:168
+msgid "Don't display on pages"
+msgstr "固定ページでは表示しない"
+
+#: postviews-options.php:163
+msgid "Pages:"
+msgstr "ページ:"
+
+#: postviews-options.php:158
+msgid "Don't display on single posts"
+msgstr "単一投稿では表示しない"
+
+#: postviews-options.php:153
+msgid "Single Posts:"
+msgstr "個別投稿:"
+
+#: postviews-options.php:148
+msgid "Don't display on home page"
+msgstr "ホームでは表示しない"
+
+#: postviews-options.php:147 postviews-options.php:157
+#: postviews-options.php:167 postviews-options.php:177
+#: postviews-options.php:187 postviews-options.php:197
+msgid "Display to registered users only"
+msgstr "登録ユーザーのみ"
+
+#: postviews-options.php:146 postviews-options.php:156
+#: postviews-options.php:166 postviews-options.php:176
+#: postviews-options.php:186 postviews-options.php:196
+msgid "Display to everyone"
+msgstr "すべての訪問者"
+
+#: postviews-options.php:143
+msgid "Home Page:"
+msgstr "トップページ:"
+
+#: postviews-options.php:140
+msgid "These options specify where the view counts should be displayed and to whom. \tBy default view counts will be displayed to all visitors. Note that the theme files must contain a call to <code>the_views()</code> in order for any view count to be displayed."
+msgstr "ビュー数を表示させる場所とユーザーを設定します。\tデフォルトでは全てのユーザーに表示されます。テーマ内のビュー数を表示させたい箇所に <code>the_views()</code> を含める必要があります。"
+
+#: postviews-options.php:139
+msgid "Display Options"
+msgstr "表示設定"
+
+#: postviews-options.php:120
+msgid "Most Viewed Template:"
+msgstr "最も人気の記事テンプレート:"
+
+#: postviews-options.php:112 postviews-options.php:132
+msgid "Restore Default Template"
+msgstr "デフォルトテンプレートに戻す"
+
+#: postviews-options.php:109 postviews-options.php:121
+msgid "Allowed Variables:"
+msgstr "利用可能な変数:"
+
+#: postviews-options.php:108
+msgid "Views Template:"
+msgstr "ビュー数の表示形式:"
+
+#: postviews-options.php:99
+msgid "You have caching enabled for your WordPress installation, by default WP-PostViews will use AJAX to update the view count. However in some cases, you might not want it."
+msgstr "WordPress 本体のキャッシュが有効になっていますが、WP-PostViews では標準でビュー数の更新に AJAX を使用します。この場合、無効が推奨されます。"
+
+#: postviews-options.php:92
+msgid "Use AJAX To Update Views:"
+msgstr "ビュー数を AJAX で更新:"
+
+#: postviews-options.php:86 postviews-options.php:96
+msgid "Yes"
+msgstr "はい"
+
+#: postviews-options.php:85 postviews-options.php:95
+msgid "No"
+msgstr "いいえ"
+
+#: postviews-options.php:82
+msgid "Exclude Bot Views:"
+msgstr "ボットからのビューを除外:"
+
+#: postviews-options.php:77
+msgid "Registered Users Only"
+msgstr "登録したユーザーのみ"
+
+#: postviews-options.php:76
+msgid "Guests Only"
+msgstr "ゲストのみ"
+
+#: postviews-options.php:75
+msgid "Everyone"
+msgstr "すべて"
+
+#: postviews-options.php:72
+msgid "Count Views From:"
+msgstr "カウントする閲覧元:"
+
+#: postviews-options.php:58 wp-postviews.php:984
+msgid "views"
+msgstr "ビュー"
+
+#: postviews-options.php:55 wp-postviews.php:983
+msgid "%VIEW_COUNT% views"
+msgstr "%VIEW_COUNT% ビュー"
+
+#: postviews-options.php:38
+msgid "No Post Views Option Updated"
+msgstr "Post Views の設定は保存されませんでした。"
+
+#: postviews-options.php:33
+msgid "Updated"
+msgstr "設定を保存しました"
+
+#: postviews-options.php:28 postviews-options.php:69
+msgid "Post Views Options"
+msgstr "Post Views 設定"

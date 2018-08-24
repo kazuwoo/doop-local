@@ -1,0 +1,503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TweetOldPost\n"
+"POT-Creation-Date: 2015-06-04 11:32+0900\n"
+"PO-Revision-Date: 2015-06-04 11:34+0900\n"
+"Last-Translator: nendeb <info@nendeb.jp>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: top-admin.php:38 top-admin.php:76
+msgid "Could not connect to Twitter. Refresh the page or try again later.."
+msgstr ""
+"Twitterへ接続できませんでした。ページを更新するか、後でやり直してください。"
+
+#: top-admin.php:140 top-admin.php:436 top-excludepost.php:28
+msgid "Tweet Old Post Options Updated."
+msgstr "設定を更新しました。"
+
+#: top-admin.php:185
+msgid ""
+"All settings have been reset. Kindly update the settings for Tweet Old Post "
+"to start tweeting again."
+msgstr ""
+"すべての設定がリセットされました。ツイートを再開するにはプラグインの設定をし"
+"てください。"
+
+#: top-admin.php:198
+msgid "Please enter bit.ly username."
+msgstr "bit.ly のユーザ名を入力してください。"
+
+#: top-admin.php:205
+msgid "Please enter bit.ly API Key."
+msgstr "bit.ly の API キーを入力してください。"
+
+#: top-admin.php:639
+msgid "Fudousan Tweet old post"
+msgstr ""
+
+#: top-admin.php:650
+msgid "Account Login"
+msgstr "ツイッター連携アプリ認証"
+
+#: top-admin.php:668
+msgid "Your account has  been authorized."
+msgstr "認証されています。"
+
+#: top-admin.php:668
+msgid "Are you sure you want to deauthorize your Twitter account?"
+msgstr "Twitterアカウントの認証を解除してもよろしいですか？"
+
+#: top-admin.php:668
+msgid "Click to deauthorize"
+msgstr "認証を解除する"
+
+#: top-admin.php:678
+msgid "Tweet Content"
+msgstr "ツイートの内容"
+
+#: top-admin.php:680
+msgid "Title Only "
+msgstr "タイトルのみ"
+
+#: top-admin.php:681
+msgid "Body Only "
+msgstr "本文のみ"
+
+#: top-admin.php:682
+msgid "Title & Body "
+msgstr "タイトルと本文"
+
+#: top-admin.php:690
+msgid "Additional Top Text"
+msgstr "追加のテキスト(文章の先頭)"
+
+#: top-admin.php:695
+msgid "Additional Last Text"
+msgstr "追加のテキスト(文章の後方)"
+
+#: top-admin.php:702
+msgid "Include Link"
+msgstr "記事のURLを含める"
+
+#: top-admin.php:704
+msgid "No "
+msgstr "いいえ"
+
+#: top-admin.php:705
+msgid "Yes "
+msgstr "はい"
+
+#: top-admin.php:711
+msgid "Fetch URL from custom field"
+msgstr "カスタムフィールドから URL取得"
+
+#: top-admin.php:717
+msgid "Custom field name to fetch URL to be tweeted with post"
+msgstr "URL取得するカスタムフィールド名"
+
+#: top-admin.php:723
+msgid "Use URL shortner?"
+msgstr "URL短縮サービス利用?"
+
+#: top-admin.php:730
+msgid "URL Shortener Service"
+msgstr "URL短縮サービス"
+
+#: top-admin.php:737
+msgid "WP.me"
+msgstr ""
+
+#: top-admin.php:739
+msgid "shortlink"
+msgstr ""
+
+#: top-admin.php:743
+msgid "is.gd"
+msgstr ""
+
+#: top-admin.php:744
+msgid "bit.ly"
+msgstr ""
+
+#: top-admin.php:745
+msgid "su.pr"
+msgstr ""
+
+#: top-admin.php:746
+msgid "tr.im"
+msgstr ""
+
+#: top-admin.php:747
+msgid "3.ly"
+msgstr ""
+
+#: top-admin.php:748
+msgid "u.nu"
+msgstr ""
+
+#: top-admin.php:749
+msgid "1click.at"
+msgstr ""
+
+#: top-admin.php:750
+msgid "tinyurl"
+msgstr ""
+
+#: top-admin.php:755
+msgid "bit.ly Username"
+msgstr "bit.ly ユーザー名"
+
+#: top-admin.php:760
+msgid "bit.ly API Key"
+msgstr ""
+
+#: top-admin.php:769
+msgid "include image in tweet: "
+msgstr "ツイートに画像を含める"
+
+#: top-admin.php:771
+msgid "Large Image in the Content or thumbnail are eligible."
+msgstr "アイキャッチ画像 または本文内の [大サイズ] 画像が対象です"
+
+#: top-admin.php:776
+msgid "include image count in tweet: "
+msgstr "ツイートに含める最大画像数"
+
+#: top-admin.php:789
+msgid "#Hashtags"
+msgstr "#ハッシュタグ"
+
+#: top-admin.php:791
+msgid "Don`t add any hashtags"
+msgstr "ハッシュタグを追加しない"
+
+#: top-admin.php:792
+msgid "Common hashtag for all tweets"
+msgstr "すべてのTweetに共通のハッシュタグを使用する"
+
+#: top-admin.php:793
+msgid "Create hashtags from categories"
+msgstr "カテゴリからハッシュタグを作成します"
+
+#: top-admin.php:794
+msgid "Create hashtags from tags"
+msgstr "タグからハッシュタグを作成します"
+
+#: top-admin.php:795
+msgid "Get hashtags from custom fields"
+msgstr "カスタムフィールドからハッシュタグを取得"
+
+#: top-admin.php:801
+msgid "Use inline hashtags"
+msgstr "インラインハッシュタグを使用します"
+
+#: top-admin.php:806
+msgid "Maximum Hashtag length"
+msgstr "ハッシュタグの最大文字数"
+
+#: top-admin.php:808
+msgid "Set this to 0 to include all hashtags"
+msgstr "すべてのハッシュタグが含まれるようにするには 0 に設定します"
+
+#: top-admin.php:814
+msgid "Custom field name"
+msgstr "カスタムフィールド名"
+
+#: top-admin.php:816
+msgid "fetch hashtags from this custom field"
+msgstr "このカスタムフィールドからハッシュタグを取得"
+
+#: top-admin.php:822
+msgid "Common #hashtags for your tweets"
+msgstr "共通のハッシュタグ"
+
+#: top-admin.php:824
+msgid "Include #, like #thoughts"
+msgstr "#を付けてください。例  #thoughts"
+
+#: top-admin.php:830
+msgid "Minimum interval between tweets"
+msgstr "Tweetの最小間隔"
+
+#: top-admin.php:831
+msgid "Hour / Hours"
+msgstr "時間"
+
+#: top-admin.php:831
+msgid "If set to 0 it will take default as 24 hours"
+msgstr "0に設定すると、デフォルトの24時間になります"
+
+#: top-admin.php:835
+msgid "Minimum age of post to be eligible for tweet"
+msgstr "ツイート対象(最小経過日数)"
+
+#: top-admin.php:836 top-admin.php:841
+msgid "Day / Days"
+msgstr "日数"
+
+#: top-admin.php:836
+msgid "enter 0 for today"
+msgstr "0 にすると今日から になります"
+
+#: top-admin.php:840
+msgid "Maximum age of post to be eligible for tweet"
+msgstr "ツイート対象(最大経過日数)"
+
+#: top-admin.php:841
+msgid "If you dont want to use this option enter 0 or leave blank"
+msgstr "不要な場合、0 を入力するか、空白にして下さい"
+
+#: top-admin.php:842
+msgid "Post older than specified days will not be tweeted."
+msgstr "指定した日数よりも投稿前のツイートされません。"
+
+#: top-admin.php:846
+msgid "Date Target of Post for Tweet"
+msgstr "ツイート対象絞り込み日付"
+
+#: top-admin.php:848
+msgid "Post Date"
+msgstr "投稿日"
+
+#: top-admin.php:849
+msgid "Post Modified"
+msgstr "更新日"
+
+#: top-admin.php:855
+msgid "Number Of Posts To Tweet"
+msgstr "一回のツイート投稿数"
+
+#: top-admin.php:865
+msgid "Tweet Post Type"
+msgstr "ツイート対象 投稿タイプ"
+
+#: top-admin.php:871
+msgid "post"
+msgstr "投稿"
+
+#: top-admin.php:872
+msgid "page"
+msgstr "固定ページ"
+
+#: top-admin.php:875
+msgid "fudo"
+msgstr "物件"
+
+#: top-admin.php:888
+msgid "Categories to Omit from tweets"
+msgstr "対象から除外するカテゴリー"
+
+#: top-admin.php:895
+msgid "POST category"
+msgstr "投稿カテゴリ"
+
+#: top-admin.php:903
+msgid "fudo category"
+msgstr "物件カテゴリ"
+
+#: top-admin.php:924
+msgid "Update Tweet Old Post Options"
+msgstr "変更を保存"
+
+#: top-admin.php:925 top-excludepost.php:392
+msgid "Tweet Now"
+msgstr "ツイートする"
+
+#: top-admin.php:926
+msgid "Reset Settings"
+msgstr "設定を初期化する"
+
+#: top-admin.php:1091
+msgid ""
+"This will reset all the setting, including your account, omitted categories, "
+"and your excluded posts. \\nAre you sure you want to reset all the settings?"
+msgstr ""
+"Twitteri認証やカテゴリ、および除外の記事を含め、すべての設定がリセットされま"
+"す。\\nすべての設定をリセットしてもよろしいですか？"
+
+#: top-admin.php:1114 top-excludepost.php:545
+msgid ""
+"You do not have enough permission to set the option. Please contact your "
+"admin."
+msgstr ""
+"あなたはオプションを設定するのに十分な権限がありません。あなたの管理者に連絡"
+"してください。"
+
+#: top-core.php:219
+msgid "No post found to tweet. Please check your settings and try again."
+msgstr ""
+"対象の投稿がありませんでした。設定を確認してから、もう一度やり直してくださ"
+"い。"
+
+#: top-core.php:440
+msgid "OOPS!!! problem with your URL shortning service. Some signs of error"
+msgstr "短縮URLサービスに問題がありました。"
+
+#: top-core.php:476
+msgid "Whoopie!!! Posted Successfully"
+msgstr "正常にツイートにされました。"
+
+#: top-core.php:478 top-excludepost.php:102
+msgid ""
+"OOPS!!! there seems to be some problem while tweeting. Please try again. "
+msgstr "ツイートに失敗しました。"
+
+#: top-core.php:481
+msgid "There had to skip the post of tweet. . "
+msgstr ""
+
+#: top-excludepost.php:68
+msgid "Fudousan Exclude Post"
+msgstr ""
+
+#: top-excludepost.php:75
+msgid "No post selected please select a post to be excluded."
+msgstr "投稿が選択されていません"
+
+#: top-excludepost.php:81
+msgid "Posts excluded successfully."
+msgstr "除外投稿を設定しました。"
+
+#: top-excludepost.php:245
+msgid "Search Posts"
+msgstr "投稿を検索"
+
+#: top-excludepost.php:251
+msgid "All"
+msgstr "全て"
+
+#: top-excludepost.php:252
+msgid "Excluded"
+msgstr "除外投稿"
+
+#: top-excludepost.php:256
+msgid "Selected Categories"
+msgstr "カテゴリーを選択"
+
+#: top-excludepost.php:262
+msgid "Filter"
+msgstr "絞り込み検索"
+
+#: top-excludepost.php:274
+msgid "&laquo;"
+msgstr ""
+
+#: top-excludepost.php:275
+msgid "&raquo;"
+msgstr ""
+
+#: top-excludepost.php:283 top-excludepost.php:413
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr ""
+
+#: top-excludepost.php:300
+msgid "Image"
+msgstr "画像"
+
+#: top-excludepost.php:301
+msgid "Id"
+msgstr ""
+
+#: top-excludepost.php:302
+msgid "Post Title"
+msgstr "タイトル"
+
+#: top-excludepost.php:303
+msgid "Author"
+msgstr "投稿者"
+
+#: top-excludepost.php:304
+msgid "Post Date/Poat Modified"
+msgstr "登録日/更新日"
+
+#: top-excludepost.php:305
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: top-excludepost.php:305
+msgid "Post Type"
+msgstr "投稿タイプ"
+
+#: top-excludepost.php:390
+msgid "Edit"
+msgstr "編集"
+
+#: top-excludepost.php:391
+msgid "View"
+msgstr "表示"
+
+#: top-excludepost.php:409
+msgid "Update"
+msgstr "更新"
+
+#: top-excludepost.php:494
+msgid "No Posts found. Review your search or filter criteria/term."
+msgstr "見つかりませんでした。"
+
+#: tweet-old-post.php:74
+msgid "F-TweetOldPost"
+msgstr ""
+
+#: tweet-old-post.php:77
+msgid "F-ExcludePosts"
+msgstr ""
+
+#: tweet-old-post.php:77
+msgid "ExcludePosts"
+msgstr ""
+
+#: tweet-old-post.php:107
+msgid "Settings"
+msgstr ""
+
+#~ msgid "Additional Text"
+#~ msgstr "追加のテキスト"
+
+#~ msgid "Additional Text At"
+#~ msgstr "追加のテキスト設置位置"
+
+#~ msgid "Beginning of tweet "
+#~ msgstr "最初"
+
+#~ msgid "End of tweet"
+#~ msgstr "ツイートの最後"
+
+#~ msgid "Tweet TOP PAGE"
+#~ msgstr "ツイート対象 トップページ"
+
+#~ msgid "Top Page"
+#~ msgstr "トップページ"
+
+#~ msgid "Top Page Text"
+#~ msgstr "ツイート文章"
+
+#~ msgid "Top Page Image1"
+#~ msgstr "画像1"
+
+#~ msgid "Set image"
+#~ msgstr "画像を登録"
+
+#~ msgid "Top Page Image2"
+#~ msgstr "画像2"
+
+#~ msgid "Top Page Image3"
+#~ msgstr "画像3"
+
+#~ msgid "Top Page Image4"
+#~ msgstr "画像4"
+
+#~ msgid "from selected categories."
+#~ msgstr "カテゴリーを選択"
+
+#~ msgid "OOPS!!! there seems to be some problem while tweeting. Try again."
+#~ msgstr "ツイートに失敗しました。"

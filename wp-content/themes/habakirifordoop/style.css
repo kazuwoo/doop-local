@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+/*!
+Template:habakiri
+Theme Name: habakiri for doop
+Theme URI: http://doop-web.com
+Author: k.suzuki
+Author URI: http://2inc.org
+Description: Habakiri is the simple theme based on Bootstrap 3. This theme's goal is to create a responsive, bootstrap based WordPress theme quickly. The design is very simple, easy to create of child theme. Features are, 100% responsive layouts, the Glyphicons, Genericons, Font Awesome icons, 7 page templates, 8 header design patterns, many color settings, a lot of hooks, related posts, minified CSS and JavaScript, Sass and PHP Class in functions.php.
+Version: 2.4.0
+License: GPLv2 or later
+License URI: license.txt
+Tags: white, fixed-layout, fluid-layout, responsive-layout, one-column, two-columns, left-sidebar, right-sidebar, editor-style, sticky-post, microformats, featured-images, custom-colors, custom-menu, custom-background, custom-colors
+*/
+body {
+	/* ゴシック体の場合 */
+	font-family: "Roboto", "Droid Sans", "游ゴシック", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", sans-serif;
+	line-height: 1.8;
+}
+
+p, ul, ol, dl, table {
+	margin-bottom: 20px;
+}
+
+h2, .h2 {
+	font-size: 26px;
+	margin: 40px 0 20px;
+}
+
+h3, .h3 {
+	font-size: 22px;
+}
+
+.img-thumbnail, body {
+	background-color: #fafafa;
+}
+.header {
+	box-shadow: rgba(0,0,0,.3) 3px 0 3px;
+}
+.page-header {
+	border-bottom: none;
+	box-shadow: rgba(0,0,0,.3) 3px 0 3px;
+	font-family: Anton;
+}
+.page-id-5 .site-branding #logo a {
+	color: #fafafa;
+}
+.responsive-nav-contents {
+	box-shadow: rgba(0,0,0,.3) 3px 0 3px;
+	margin-bottom: 100px;
+}
+.social-nav {
+	box-shadow: rgba(0,0,0,.3) 3px 0 3px;
+	padding: 40px 0 0;
+	background-color: #fff;
+}
+.page-template-rich-front-page .responsive-nav-contents {
+	box-shadow: rgba(0,0,0,.3) 3px 0 10px;
+}
+
+.social-nav ul {
+	margin-bottom: 10px;
+}
+.social-nav ul li a {
+	color: #0a0a0a;
+	margin: 0;
+}
+.copyright {
+	background-color: #fff;
+	padding: 0 0 50px;
+}
+
+.site-branding #logo a {
+	font-size: 28px;
+	color: #000;
+}
+
+.site-branding a,
+.logo {
+	font-family: Anton;
+	font-size: 24px;
+}
+.logo-white {
+	color: #eee;
+	text-shadow:	0 -1px 0 #000,
+					0 1px 0 rgba(255, 255, 255, 0.4),
+					1px 0 0 rgba(255, 255, 255, 0.2),
+					-1px 0 0 rgba(255, 255, 255, 0.2);
+}
+.logo-black {
+	color: #000;
+	text-shadow:	0 1px 0 #fff,
+					0 -1px 0 rgba(100, 100, 100, 0.4),
+					1px 0 0 rgba(100, 100, 100, 0.2),
+					-1px 0 0 rgba(100, 100, 100, 0.2);
+}
+
+.syntaxhighlighter {
+	padding: 1px;
+	border: 1px solid #ddd;
+}
+
+
+.habakiri-slider, .habakiri-slider__item {
+	height: 500px !important;
+}
+
+.responsive-nav .menu>.current-menu-item>a,
+.responsive-nav .menu>.current-menu-ancestor>a,
+.responsive-nav .menu>.current-menu-parent>a,
+.responsive-nav .menu>.current_page_item>a,
+.responsive-nav .menu>.current_page_parent>a,
+.header--transparency.header--fixed--is_scrolled .responsive-nav .menu>.current-menu-item>a,
+.header--transparency.header--fixed--is_scrolled .responsive-nav .menu>.current-menu-ancestor>a,
+.header--transparency.header--fixed--is_scrolled .responsive-nav .menu>.current-menu-parent>a,
+.header--transparency.header--fixed--is_scrolled .responsive-nav .menu>.current_page_item>a,
+.header--transparency.header--fixed--is_scrolled .responsive-nav .menu>.current_page_parent>a {
+	font-weight: bold;
+}
+
+
+.responsive-nav .menu>.menu-item>a,
+.header--transparency.header--fixed--is_scrolled .responsive-nav .menu>.menu-item>a {
+	padding: 15px 15px !important;
+	border-bottom: 1px solid #fafafa;
+}
+
+
+.responsive-nav .menu>.menu-item>a:hover,
+.responsive-nav .menu>.menu-item>a:active,
+.header--transparency.header--fixed--is_scrolled .responsive-nav .menu>.menu-item>a:hover,
+.header--transparency.header--fixed--is_scrolled .responsive-nav .menu>.menu-item>a:active {
+	border-bottom: 1px solid #337ab7;
+}
+
+.next_link {
+	float: right;
+}
+
+.prev_link {
+	float: left;
+}
+
+.img_about_thumbnail_area img {
+	padding: 5px;
+	border-top: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	box-shadow: 2px 2px 1px 1px #ddd;
+}
+.img_post_area {
+	margin-bottom: 20px;
+}
+.img_post_area img {
+	padding: 5px;
+	border-top: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	box-shadow: 2px 2px 1px 1px #ddd;
+}
+
+.sidebar-widget__title {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 6px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+}
+
+
+.widget_popular ul,
+.widget_categories ul,
+.widget_archive ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.widget_categories ul li,
+.widget_archive ul li {
+	display: inline-block;
+	margin: 0 .2em 0 0;
+	padding: 0;
+}
+.widget_categories ul li a,
+.widget_archive ul li a {
+	position: relative;
+	display: inline-block;
+	max-width: 150px;
+	height: 29px;
+	line-height: 28px;
+	padding: 0 4.2em 0 .6em;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #333;
+	font-size: 9px;
+	text-decoration: none;
+	-webkit-transition: .2s;
+	transition: .2s;
+}
+.widget_categories li .cat_count,
+.widget_archive li .month_count {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	z-index: 2;
+	width: 28px;
+	height: 18px;
+	line-height: 18px;
+	background-color: #eee;
+	border-radius: 100%;
+	color: #333;
+	text-align: center;
+	-webkit-transition: .2s;
+	transition: .2s;
+}
+.widget_categories ul li a:hover,
+.widget_archive ul li a:hover {
+	background-color: #337ab7;
+	border: 1px solid #337ab7;
+	color: #fff;
+}
+.widget_categories ul li a:hover .cat_count,
+.widget_archive ul li a:hover .month_count {
+	background-color: #fff;
+	color: #337ab7;
+}
+
+
+@media screen and (max-width: 640px){
+	.habakiri-slider__item-wrapper {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.habakiri-slider__item-content {
+		top:     10%;
+		padding-left: 30px;
+	}
+	.habakiri-slider__item-content h1 {
+		margin-bottom: 0;
+	}
+}
+@media screen and (max-width: 768px){
+	.entry--has_media__media {
+		display: none;
+	}
+}
+

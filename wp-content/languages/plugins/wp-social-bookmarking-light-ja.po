@@ -1,0 +1,161 @@
+# Translation of Plugins - WP Social Bookmarking Light - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WP Social Bookmarking Light - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-17 07:21:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP Social Bookmarking Light - Stable (latest release)\n"
+
+#: modules/services.php:69 modules/services.php:85
+msgid "Bookmark this on Hatena Bookmark"
+msgstr "このエントリーをはてなブックマークに追加"
+
+#: modules/services.php:76
+msgid "Hatena Bookmark - %s"
+msgstr "はてなブックマーク - %s"
+
+#: modules/admin.php:821
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: modules/admin.php:274
+msgid "Styles"
+msgstr "スタイル"
+
+#: modules/admin.php:273
+msgid "General Settings"
+msgstr "一般設定"
+
+#: modules/admin.php:254
+msgid "Options saved."
+msgstr "設定を保存しました。"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Social Bookmarking Light"
+msgstr "WP Social Bookmarking Light"
+
+#. #-#-#-#-#  tmp-wp-social-bookmarking-light.pot (WP Social Bookmarking Light
+#. 1.7.10)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-wp-social-bookmarking-light.pot (WP Social Bookmarking Light
+#. 1.7.10)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://github.com/utahta/WP-Social-Bookmarking-Light"
+msgstr "https://github.com/utahta/WP-Social-Bookmarking-Light"
+
+#: modules/services.php:361
+msgid "Share on Facebook"
+msgstr "Facebook にシェア"
+
+#: modules/services.php:485
+msgid "Share on reddit"
+msgstr "reddit にシェア"
+
+#: modules/services.php:496
+msgid "Share on LinkedIn"
+msgstr "LinkedIn にシェア"
+
+#: modules/services.php:350
+msgid "Share on FriendFeed"
+msgstr "FriendFeed にシェア"
+
+#: modules/services.php:585
+msgid "Share on GREE"
+msgstr "GREE にシェア"
+
+#. Author of the plugin/theme
+msgid "utahta"
+msgstr "utahta"
+
+#: modules/services.php:531
+msgid "Share on StumbleUpon"
+msgstr "StumbleUpon にシェア"
+
+#: modules/services.php:339
+msgid "Bookmark this on Digg"
+msgstr "Digg にシェア"
+
+#: modules/services.php:328
+msgid "Bookmark this on Delicious"
+msgstr "Delicious にシェア"
+
+#: modules/services.php:305
+msgid "Post to Google Buzz"
+msgstr "Google Buzz にシェア"
+
+#: modules/admin.php:822
+msgid "Restore defaults"
+msgstr "デフォルトに戻す"
+
+#: modules/admin.php:258
+msgid "Restore defaults."
+msgstr "デフォルトに戻す"
+
+#. Description of the plugin/theme
+msgid "This plugin inserts social share links at the top or bottom of each post."
+msgstr "このプラグインは、各投稿の上部または下部にソーシャルシェアリンクを挿入します。"
+
+#: modules/services.php:109
+msgid "Tweets - %s"
+msgstr "ツイート - %s"
+
+#: modules/services.php:283
+msgid "Choix it!"
+msgstr "Choix it!"
+
+#: modules/services.php:272
+msgid "Newsing it!"
+msgstr "Newsing it!"
+
+#: modules/services.php:219
+msgid "@nifty clip - %s"
+msgstr "@nifty クリップ - %s"
+
+#: modules/services.php:261
+msgid "FC2 Bookmark - %s"
+msgstr "FC2 ブックマーク - %s"
+
+#: modules/services.php:201
+msgid "BuzzURL - %s"
+msgstr "BuzzURL - %s"
+
+#: modules/services.php:157
+msgid "Livedoor Clip - %s"
+msgstr "Livedoor クリップ - %s"
+
+#: modules/services.php:102
+msgid "Post to Twitter"
+msgstr "Twitter に投稿する"
+
+#: modules/services.php:150
+msgid "Bookmark this on Livedoor Clip"
+msgstr "このエントリーを Livedoor クリップにブックマーク"
+
+#: modules/services.php:168
+msgid "Bookmark this on Yahoo Bookmark"
+msgstr "このエントリーを Yahoo ブックマークに追加"
+
+#: modules/services.php:183
+msgid "Buzz This"
+msgstr "Buzz This"
+
+#: modules/services.php:194
+msgid "Bookmark this on BuzzURL"
+msgstr "このエントリーを BuzzURL にブックマーク"
+
+#: modules/services.php:212
+msgid "Bookmark this on @nifty clip"
+msgstr "このエントリーを @nifty クリップにブックマーク"
+
+#: modules/services.php:254
+msgid "Bookmark this on FC2 Bookmark"
+msgstr "このエントリーを FC2 ブックマーク に追加"
+
+#: modules/services.php:294
+msgid "Bookmark this on Google Bookmarks"
+msgstr "このエントリーを Google ブックマーク に追加"
